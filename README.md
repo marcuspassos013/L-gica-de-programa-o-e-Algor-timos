@@ -1,2 +1,2 @@
-# L-gica-de-programa-o-e-Algor-timos
+# Logica-de-programacao-e-Algoritimos
 algorítimos feitos no visualG
