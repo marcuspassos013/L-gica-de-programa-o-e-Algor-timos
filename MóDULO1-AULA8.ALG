@@ -1,8 +1,10 @@
-Algoritmo "mÃ³dulo1-aula8"  
+Algoritmo "módulo1-aula8"
+//  
 //  
 // Trabalhando com entrada de dados
-//
-// Autor(a)    : Marcus Passos
+//  
+// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 27/9/2022
 Var
    idade : inteiro
@@ -10,18 +12,18 @@ Var
    nome : caractere
 
 Inicio
-  escreva("OlÃ¡!! Qual Ã© seu nome? ")
+  escreva("Olá!! Qual é seu nome? ")
   leia(nome)
-  escreva("Quantos anos vocÃª tem? ")
+  escreva("Quantos anos você tem? ")
   leia(idade)
-  escreva("Qual valor de seu salÃ¡rio atual? ")
+  escreva("Qual valor de seu salário atual? ")
   leia(salario1)
-  escreval("E do seu penÃºltimo salÃ¡rio? ")
+  escreval("E do seu penúltimo salário? ")
   leia(salario2)
   
   escreval("Dados atualizados com sucesso!!")
   escreval("Nome: ", nome)
   escreval("Idade: ", idade)
-  escreval("SalÃ¡rio atual: ", salario1:8:2)
-  escreval("SalÃ¡rio anterior: ", salario2:8:2)
+  escreval("Salário atual: ", salario1:8:2)
+  escreval("Salário anterior: ", salario2:8:2)
 Fimalgoritmo
