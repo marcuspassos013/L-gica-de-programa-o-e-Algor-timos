@@ -1,9 +1,7 @@
-Algoritmo "módulo1-aula8"
-//  
+Algoritmo "módulo1-aula8"  
 //  
 // Trabalhando com entrada de dados
-//  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+//
 // Autor(a)    : Marcus Passos
 // Data atual  : 27/9/2022
 Var
