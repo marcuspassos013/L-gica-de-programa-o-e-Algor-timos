@@ -5,14 +5,13 @@ Algoritmo "media_idades"
 Var
 
   x,contador,media,soma: real
-  message : caractere
 
 Inicio
 
       soma <- 0
       contador <- 1
 
-      escreval("Olá, Bem-vido(a)!!!")
+      escreval("OlÃ¡, Bem-vido(a)!!!")
       escreval("Para interromper o processo basta digitar 0:")
       escreval()
       escreval("Digite as idades: ")
@@ -28,13 +27,13 @@ Inicio
        
        se (soma > x) entao
         media <- soma / contador
-        escreval("Idades válidas: ",contador)
+        escreval("Idades vÃ¡lidas: ",contador)
         escreval("Total de anos somado: ",soma)
-        escreval("A média das idades é = ",media:4:2)
+        escreval("A mÃ©dia das idades Ã© = ",media:4:2)
        fimse
        
        se (x < 0)entao
-        escreval("O valor: ",x ," é negativo.")
+        escreval("O valor: ",x ," Ã© negativo.")
        senao
        se (x = 0)entao
         escreval("Finalizando o processo...")
