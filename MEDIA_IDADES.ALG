@@ -25,7 +25,7 @@ Inicio
          fimse
        fimenquanto
        
-       se (soma > x) entao
+       se (soma > x) e (soma <> 0) entao
         media <- soma / contador
         escreval("Idades válidas: ",contador)
         escreval("Total de anos somado: ",soma)
