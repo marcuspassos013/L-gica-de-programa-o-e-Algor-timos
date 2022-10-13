@@ -9,7 +9,7 @@ Var
 Inicio
 
       soma <- 0
-      contador <- 1
+      contador <- 0
 
       escreval("Olá, Bem-vido(a)!!!")
       escreval("Para interromper o processo basta digitar 0:")
@@ -19,10 +19,10 @@ Inicio
       
       enquanto x > 0 faca
        soma <- soma + x
-           leia(x)
          se (x > 0) entao
          contador <- contador + 1
          fimse
+         leia(x)
        fimenquanto
        
        se (soma > x) e (soma <> 0) entao
