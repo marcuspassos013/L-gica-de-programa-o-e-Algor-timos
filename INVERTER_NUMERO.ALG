@@ -1,8 +1,8 @@
 Algoritmo "inverter_numero"
 // 
 //  
-// Descrição   : Aqui você descreve o que o programa faz! (função)
-// Autor(a)    : Nome do(a) aluno(a)
+// DescriÃ§Ã£o   : MÃ©todo de divisÃ£o sucessiva para inverter um nÃºmero de 4 dÃ­gitos
+// Autor(a)    : Marcus Passos
 // Data atual  : 15/10/2022
 Var
 
@@ -10,7 +10,7 @@ valor_inicial,valor_temp,milhar,centena,dezena,unidade,valor_invertido: inteiro
 
 Inicio
 
-    escreval("Entre com um número de 4 dígitos: ")
+    escreval("Entre com um nÃºmero de 4 dÃ­gitos: ")
     leia(valor_inicial)
     
     valor_temp <- valor_inicial
@@ -26,7 +26,7 @@ Inicio
     valor_invertido <- valor_invertido + (dezena * 100)
     valor_invertido <- valor_invertido +(centena * 10)
     valor_invertido <- valor_invertido + milhar
-    escreval("O número ", valor_inicial, " invertido é ",valor_invertido)
+    escreval("O nÃºmero ", valor_inicial, " invertido Ã© ",valor_invertido)
     
     
     
