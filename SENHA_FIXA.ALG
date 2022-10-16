@@ -1,25 +1,24 @@
 Algoritmo "senha_fixa"
 // 
 // Autor(a)    : Marcus Passos
-// Data atual  : 12/10/2022
+// Data atual  : 15/10/2022
 Var
 
-   senha,x: real
+     x,i : inteiro
 
 Inicio
 
-   senha <- 123
-   escreval("Digite a senha: ")
-   leia(x)
-   
-   enquanto x <> senha faca
-    escreval("Senha incorreta. Tente novamente: ")
-    leia(x)
-   fimenquanto
-
-   se (x = senha) entao
-    escreval("Parabéns!!! Você acertou!!!")
-   fimse
-
-
+     escreval("Digite a senha: ")
+     leia(x)
+         para i de 3 ate 1 passo -1 faca
+          se (x <> 10) entao
+            escreval("Acesso negado: restam ", i ," tentativas: ")
+            leia(x)
+          fimse
+         fimpara
+         se (x = 10) entao
+         escreval("Acesso liberado!!!")
+         senao
+         escreval("Encerrando a conexão...")
+         fimse
 Fimalgoritmo
